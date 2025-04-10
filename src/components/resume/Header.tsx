@@ -25,7 +25,7 @@ const Header = () => {
         </div>
 
         {/* Right Header - Contact Info with Photo */}
-        <div className="bg-white p-6 md:p-10 md:w-3/5 relative before:content-[''] before:absolute before:top-0 before:right-0 before:w-full before:h-0.5 before:bg-black">
+        <div className="bg-white p-6 md:p-10 md:w-3/5 relative before:content-[''] before:absolute before:top-0 before:right-0 before:w-full before:h-1.5 before:bg-black">
           <div className="flex flex-col md:flex-row items-center">
             <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-red-700 mb-6 md:mb-0 md:mr-6 flex-shrink-0">
               <img 
