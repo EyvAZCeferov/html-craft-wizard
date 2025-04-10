@@ -29,7 +29,7 @@ const EducationTimeline: React.FC<EducationTimelineProps> = ({ education }) => {
           </div>
 
           {/* Education info */}
-          <div className="mt-2 ml-5">
+          <div className="mt-2 ml-15">
             <h4 className="font-bold text-gray-900">{edu.institution}</h4>
             <h5 className="font-semibold">{edu.degree}</h5>
             <ul className="mt-2 space-y-1">
