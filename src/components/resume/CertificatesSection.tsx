@@ -5,7 +5,7 @@ import SectionHeading from "@/components/SectionHeading";
 
 const CertificatesSection = () => {
   return (
-    <div class="before:content-[''] before:absolute before:bottom-0 before:right-0 before:w-full before:h-1.5 before:bg-black">
+    <div>
       <SectionHeading title="SERTİFİKATLAR" />
       <div className="space-y-6 mt-6">
         <Certificate 
