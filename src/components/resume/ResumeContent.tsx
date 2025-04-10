@@ -10,7 +10,7 @@ const ResumeContent = () => {
   return (
     <div className="flex flex-col md:flex-row relative">
       {/* Left Column */}
-      <div className="bg-white p-6 md:p-8 md:w-2/5 before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-50 before:h-1.5 before:bg-black">
+      <div className="bg-white p-6 md:p-8 md:w-2/5 before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-2/5 before:h-1.5 before:bg-black">
         <SkillsSection />
         <CertificatesSection />
       </div>
