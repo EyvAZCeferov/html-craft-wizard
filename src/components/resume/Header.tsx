@@ -31,7 +31,7 @@ const Header = () => {
               <img 
                 src="https://online.venta.az/uploads/removed_bg_applications/b8a5bb92-ce84-4c82-9cad-30a413b26e51.png" 
                 alt="Profile" 
-                className="w-full h-full object-fill"
+                className="w-full h-full object-scaled"
               />
             </div>
             <div className="space-y-3 flex-grow">
