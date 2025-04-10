@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 interface Education {
@@ -23,13 +22,13 @@ const EducationTimeline: React.FC<EducationTimelineProps> = ({ education }) => {
             <div className="w-2 h-2 bg-gray-500 rotate-45 absolute top-[30px] left-0"></div>
           </div>
 
-          {/* Year range */}
-          <div className="absolute left-15 top-30px text-gray-700 font-medium d-flex flex-column">
-            {edu.endYear} - {edu.startYear}
+          {/* Year range - moved to the left side */}
+          <div className="absolute left-[-120px] top-0 w-[100px] text-right text-gray-700 font-medium">
+            {edu.startYear} - {edu.endYear}
           </div>
 
           {/* Education info */}
-          <div className="mt-2 ml-15">
+          <div className="mt-2">
             <h4 className="font-bold text-gray-900">{edu.institution}</h4>
             <h5 className="font-semibold">{edu.degree}</h5>
             <ul className="mt-2 space-y-1">
