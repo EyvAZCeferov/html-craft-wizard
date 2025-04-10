@@ -13,8 +13,8 @@ const SectionHeading: React.FC<SectionHeadingProps> = ({ title }) => {
       <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 -mb-1">
         <div className="bg-transparent px-2">
           <div className="h-2 w-8 flex items-center justify-center">
-            <div className="w-2 h-2 border border-gray-400 rotate-45 mx-0.5"></div>
-            <div className="w-2 h-2 border border-gray-400 rotate-45 mx-0.5"></div>
+            <div className="w-3 h-3 bg-white border border-gray-400 rotate-45 mx-0.5"></div>
+            <div className="w-3 h-3 bg-white border border-gray-400 rotate-45 mx-0.5"></div>
           </div>
         </div>
       </div>
