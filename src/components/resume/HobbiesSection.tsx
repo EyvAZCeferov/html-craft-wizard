@@ -1,6 +1,5 @@
 
 import React from "react";
-import Certificate from "@/components/Certificate";
 import SectionHeading from "@/components/SectionHeading";
 
 const HobbiesSection = () => {
@@ -18,3 +17,5 @@ const HobbiesSection = () => {
     </div>
   )
 }
+
+export default HobbiesSection;
