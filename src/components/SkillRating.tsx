@@ -17,7 +17,7 @@ const SkillRating: React.FC<SkillRatingProps> = ({ name, rating }) => {
         {circles.map((filled, index) => (
           <div 
             key={index}
-            className={`w-4 h-4 rotate-45 mr-1 ${
+            className={`w-4 h-4 rotate-45 shadow-md mr-1 ${
               filled ? 'bg-red-700' : 'border border-gray-400 bg-white'
             }`}
           />
