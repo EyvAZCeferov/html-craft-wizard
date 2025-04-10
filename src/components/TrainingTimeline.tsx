@@ -24,8 +24,8 @@ const TrainingTimeline: React.FC<TrainingTimelineProps> = ({ trainings }) => {
             <div className="w-2 h-2 bg-gray-500 rotate-45 absolute top-[30px] left-0"></div>
           </div>
 
-          {/* Date info */}
-          <div className="text-gray-700 font-medium">
+          {/* Date info - moved to the left side */}
+          <div className="absolute left-[-120px] top-0 w-[100px] text-right text-gray-700 font-medium">
             {training.date || (
               <>
                 {training.endDate} - {training.startDate}

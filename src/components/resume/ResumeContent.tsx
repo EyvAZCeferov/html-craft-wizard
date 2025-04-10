@@ -23,8 +23,8 @@ const ResumeContent = () => {
         <div className="h-full w-0.5 bg-gray-300"></div>
       </div>
 
-      {/* Right Column */}
-      <div className="bg-gray-100 p-6 md:p-8 md:w-3/5 border-l border-gray-200">
+      {/* Right Column - added pl-24 to create space for the dates */}
+      <div className="bg-gray-100 p-6 md:p-8 pl-24 md:w-3/5 border-l border-gray-200">
         <ExperienceSection />
         <EducationSection />
         <TrainingSection />

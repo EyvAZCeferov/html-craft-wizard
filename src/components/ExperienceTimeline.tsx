@@ -23,8 +23,8 @@ const ExperienceTimeline: React.FC<ExperienceTimelineProps> = ({ experiences }) 
             <div className="w-2 h-2 bg-gray-500 rotate-45 absolute top-[30px] left-0"></div>
           </div>
 
-          {/* Date range */}
-          <div className="text-gray-700 font-medium">
+          {/* Date range - moved to the left side */}
+          <div className="absolute left-[-120px] top-0 w-[100px] text-right text-gray-700 font-medium">
             {experience.startDate} - {experience.endDate}
           </div>
 
