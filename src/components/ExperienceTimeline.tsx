@@ -20,7 +20,7 @@ const ExperienceTimeline: React.FC<ExperienceTimelineProps> = ({ experiences }) 
         <div key={index} className="relative pl-8 pb-8 border-l border-gray-300">
           {/* Timeline dot */}
           <div className="absolute left-0 top-0 transform -translate-x-1/2 bg-transparent p-1 position-relative">
-            <div className="w-2 h-2 bg-gray-500 rotate-45 absolute top-[15%] left-0"></div>
+            <div className="w-2 h-2 bg-gray-500 rotate-45 absolute top-[35%] left-0"></div>
           </div>
 
           {/* Date range */}
