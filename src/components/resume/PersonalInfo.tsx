@@ -3,7 +3,7 @@ import React from "react";
 
 const PersonalInfo = () => {
   return (
-    <div className="bg-gray-700 text-white p-4">
+    <div className="bg-gray-700 text-white p-4 px-5">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <div className="flex flex-row text-center">
           <span className="font-semibold">Doğum tarixi:</span>
