@@ -8,10 +8,10 @@ const Header = () => {
       <div className="flex flex-col md:flex-row">
         {/* Left Header - Name and Title */}
         <div className="bg-gray-100 p-6 md:p-10 md:w-2/5 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:bg-gray-300">
-          <h1 className="text-3xl font-bold text-gray-800 tracking-tight">
+          <h1 className="text-3xl font-bold text-gray-800 tracking-tight text-center">
             ORXAN XUDUYEV
           </h1>
-          <h2 className="text-2xl font-bold text-gray-700 mt-1">
+          <h2 className="text-2xl font-bold text-gray-700 mt-1 text-center">
             ELMƏDDİN oğlu
           </h2>
           <div className="mt-6 border-t border-gray-300 py-4">
