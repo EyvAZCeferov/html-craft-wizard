@@ -7,6 +7,7 @@ import EducationTimeline from "@/components/EducationTimeline";
 import TrainingTimeline from "@/components/TrainingTimeline";
 import SectionHeading from "@/components/SectionHeading";
 import Certificate from "@/components/Certificate";
+import { Separator } from "@/components/ui/separator";
 
 const ResumeTemplate = () => {
   return (
@@ -15,7 +16,7 @@ const ResumeTemplate = () => {
       <div className="relative">
         <div className="flex flex-col md:flex-row">
           {/* Left Header - Name and Title */}
-          <div className="bg-white p-6 md:p-10 md:w-2/5">
+          <div className="bg-white p-6 md:p-10 md:w-2/5 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:bg-gray-300">
             <h1 className="text-3xl font-bold text-gray-800 tracking-tight">
               ORXAN XUDUYEV
             </h1>
@@ -27,8 +28,13 @@ const ResumeTemplate = () => {
             </div>
           </div>
 
+          {/* Separator */}
+          <div className="hidden md:block absolute left-2/5 top-1/2 -translate-y-1/2 z-10 h-full">
+            <div className="h-full w-0.5 bg-gray-300"></div>
+          </div>
+
           {/* Right Header - Contact Info with Photo */}
-          <div className="bg-gray-100 p-6 md:p-10 md:w-3/5 border-l border-gray-200">
+          <div className="bg-gray-100 p-6 md:p-10 md:w-3/5 relative before:content-[''] before:absolute before:top-0 before:right-0 before:w-full before:h-0.5 before:bg-gray-300">
             <div className="flex flex-col md:flex-row items-center">
               <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-red-700 mb-6 md:mb-0 md:mr-6 flex-shrink-0">
                 <img 
@@ -96,7 +102,7 @@ const ResumeTemplate = () => {
       </div>
 
       {/* Main Content */}
-      <div className="flex flex-col md:flex-row">
+      <div className="flex flex-col md:flex-row relative">
         {/* Left Column */}
         <div className="bg-white p-6 md:p-8 md:w-2/5">
           <div className="mb-10">
@@ -137,6 +143,11 @@ const ResumeTemplate = () => {
               />
             </div>
           </div>
+        </div>
+
+        {/* Separator */}
+        <div className="hidden md:block absolute left-2/5 top-0 h-full">
+          <div className="h-full w-0.5 bg-gray-300"></div>
         </div>
 
         {/* Right Column */}
