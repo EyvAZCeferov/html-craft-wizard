@@ -24,7 +24,7 @@ const EducationTimeline: React.FC<EducationTimelineProps> = ({ education }) => {
           </div>
 
           {/* Year range */}
-          <div className="absolute left-15 top-30px text-gray-700 font-medium">
+          <div className="absolute left-15 top-30px text-gray-700 font-medium d-flex flex-column">
             {edu.endYear} - {edu.startYear}
           </div>
 
