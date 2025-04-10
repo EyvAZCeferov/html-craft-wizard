@@ -22,22 +22,9 @@ const CertificatesSection = () => {
         />
       </div>
       
-      <SectionHeading title="Hobbilər" />
-      <div className="mt-8">
-        <div className="flex flex-wrap gap-2 mt-2">
-          <span className="bg-red-800 text-white px-3 py-1 rounded-full text-sm">Kitab oxumaq</span>
-          <span className="bg-red-800 text-white px-3 py-1 rounded-full text-sm">Üzgüçülük</span>
-          <span className="bg-red-800 text-white px-3 py-1 rounded-full text-sm">Şahmat</span>
-          <span className="bg-red-800 text-white px-3 py-1 rounded-full text-sm">Səyahət</span>
-        </div>
-      </div>
+     
       
-      <div className="mt-6">
-        <div className="font-bold mb-1">Əllillik statusu/dərəcəsi:</div>
-        <div className="mt-1">
-          <span className="text-gray-700">Yox</span>
-        </div>
-      </div>
+      
     </div>
   );
 };
