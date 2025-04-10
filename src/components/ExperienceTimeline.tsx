@@ -35,7 +35,7 @@ const ExperienceTimeline: React.FC<ExperienceTimelineProps> = ({ experiences }) 
             <ul className="mt-2 space-y-1">
               {experience.responsibilities.map((responsibility, respIndex) => (
                 <li key={respIndex} className="flex items-start">
-                  <span className="mr-2 text-sm text-gray-600">◆</span>
+                  <span className="mr-2 text-xs text-gray-600">◆</span>
                   <span>{responsibility}</span>
                 </li>
               ))}
