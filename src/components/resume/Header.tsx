@@ -14,7 +14,7 @@ const Header = () => {
           <h2 className="text-2xl font-bold text-gray-700 mt-1">
             ELMƏDDİN oğlu
           </h2>
-          <div className="mt-6 border-t border-b border-gray-300 py-4">
+          <div className="mt-6 border-t border-gray-300 py-4">
             <h3 className="text-xl font-semibold text-center">OFİS MENECERİ</h3>
           </div>
         </div>
