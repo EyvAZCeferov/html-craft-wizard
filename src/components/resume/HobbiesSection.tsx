@@ -6,7 +6,7 @@ import SectionHeading from "@/components/SectionHeading";
 const HobbiesSection = () => {
   return (
     <div>
-         <SectionHeading title="Hobbilər" />
+        <SectionHeading title="Hobbilər" />
         <div className="space-y-6 mt-6">
         <div className="flex flex-wrap gap-2 mt-2">
           <span className="bg-red-800 text-white px-3 py-1 rounded-full text-sm">Kitab oxumaq</span>
