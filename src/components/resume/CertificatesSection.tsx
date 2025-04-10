@@ -22,8 +22,8 @@ const CertificatesSection = () => {
         />
       </div>
       
+      <SectionHeading title="Hobbilər" />
       <div className="mt-8">
-        <div className="font-bold mb-2">Hobbiləri:</div>
         <div className="flex flex-wrap gap-2 mt-2">
           <span className="bg-red-800 text-white px-3 py-1 rounded-full text-sm">Kitab oxumaq</span>
           <span className="bg-red-800 text-white px-3 py-1 rounded-full text-sm">Üzgüçülük</span>
