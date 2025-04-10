@@ -37,15 +37,15 @@ const Header = () => {
             <div className="space-y-3 flex-grow">
               <div className="flex items-center">
                 <Phone className="h-5 w-5 text-gray-500 mr-3" />
-                <span>(+994 55) 369 89 69</span>
+                <span>(+994 51) 638 88 38</span>
               </div>
               <div className="flex items-center">
                 <Mail className="h-5 w-5 text-gray-500 mr-3" />
-                <span>cvakansiya@gmail.com</span>
+                <span>info@venta.az</span>
               </div>
               <div className="flex items-start">
                 <MapPin className="h-5 w-5 text-gray-500 mr-3 mt-1" />
-                <span>Bakı şəh., Nəsimi ray., Həsən Əliyev küç., bina XX</span>
+                <span>Bakı şəh., Sabunçu ray., Bəşir Bünyadov küç., 5X</span>
               </div>
               <div className="flex items-center">
                 <Linkedin className="h-5 w-5 text-gray-500 mr-3" />
