@@ -29,7 +29,7 @@ const Header = () => {
           <div className="flex flex-col md:flex-row items-center">
             <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-red-700 mb-6 md:mb-0 md:mr-6 flex-shrink-0">
               <img 
-                src="/lovable-uploads/32978899-484e-49fd-b47e-f544a827f9c6.png" 
+                src="https://documents.venta.az/uploads/removed_bg_applications/294270d8-2d1a-4480-8fd4-f10a39179a97.png" 
                 alt="Profile" 
                 className="w-full h-full object-cover"
               />
