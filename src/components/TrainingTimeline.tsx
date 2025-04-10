@@ -40,7 +40,7 @@ const TrainingTimeline: React.FC<TrainingTimelineProps> = ({ trainings }) => {
             <ul className="mt-2 space-y-1">
               {training.details.map((detail, detailIndex) => (
                 <li key={detailIndex} className="flex items-start">
-                  <span className="mr-2 text-xs text-gray-600">◆</span>
+                  <span className="mr-3 mt-2 text-xs text-gray-600">◆</span>
                   <span>{detail}</span>
                 </li>
               ))}
